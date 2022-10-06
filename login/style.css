@@ -49,8 +49,6 @@ header {
     align-items: center;
     flex-wrap: wrap;
     overflow: hidden;
-    opacity: 0.8;
-    transition: 0.3s ease;
 }
 
 .blocks .left-block-content {
@@ -63,6 +61,63 @@ header {
     flex-wrap: wrap;
     border-radius: 20px 0px 0px 20px;
 }
+
+.left-block-content .top {
+    font-family: 'Inter', sans-serif;
+    color: #444647;
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-block-content .mid {
+    background: orange;
+    width: 80%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+input {
+    width: 90%;
+    margin: 20px 0px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    background: #444647;
+}
+
+.left-block-content .bot {
+    background: salmon;
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 93%;
+    height: 50%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #353961;
+}
+
 .blocks .right-block-content {
     background: #353961;
     width: 50%;
