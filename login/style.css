@@ -4,16 +4,16 @@ html {
 
 body {
     background: #fff;
-    font-family: 'Noto Sans Mono', monospace;
     margin: 0;
 }
 
 nav {
-    background: #000;
+    background: #353961;
     height: 12vh;
     width: 100%;
     position: fixed;
     display: flex;
+    border-radius: 0px 0px 10px 10px;
 }
 
 
@@ -41,8 +41,8 @@ header {
     align-items: center;
 }
 
-.ilhas {
-    width: 100%;
+.blocks {
+    width: 85%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -53,8 +53,8 @@ header {
     transition: 0.3s ease;
 }
 
-.ilhas .rightlogin {
-    background: #bdc3c7;
+.blocks .left-block-content {
+    background: #BDC3C7;
     width: 50%;
     height: 100%;
     display: flex;
@@ -63,30 +63,12 @@ header {
     flex-wrap: wrap;
     border-radius: 20px 0px 0px 20px;
 }
-.ilhas .leftcontent {
-    background: #7f8c8d;
+.blocks .right-block-content {
+    background: #353961;
     width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 0px 20px 20px 0px;
-}
-
-.rightlogin .top {
-    background: red;
-    width: 80%;
-    height: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.rightlogin .bot {
-    background: salmon;
-    width: 80%;
-    height: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
