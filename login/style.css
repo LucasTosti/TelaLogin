@@ -76,26 +76,16 @@ header {
 .rightlogin .top {
     background: red;
     width: 80%;
-    height: 50%;
+    height: 60%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
 
-input[type="Login"] {
-    border-radius:  50px;
-    outline: none;
-    border: none;
-    color: #333;
-    width: 80%;
-    height: 50%;
-    font-size: 1em;
-}
-
 .rightlogin .bot {
     background: salmon;
     width: 80%;
-    height: 40%;
+    height: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
