@@ -5,6 +5,7 @@ html {
 body {
     background: #fff;
     margin: 0;
+    font-family: 'Inter', sans-serif;
 }
 
 nav {
@@ -63,7 +64,6 @@ header {
 }
 
 .left-block-content .top {
-    font-family: 'Inter', sans-serif;
     color: #444647;
     width: 80%;
     height: 20%;
@@ -73,7 +73,6 @@ header {
 }
 
 .left-block-content .mid {
-    background: orange;
     width: 80%;
     height: 40%;
     display: flex;
@@ -83,6 +82,8 @@ header {
 }
 
 form {
+    width: 100%;
+    height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,8 +101,20 @@ input {
     background: #444647;
 }
 
+.midbot {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #353961;
+}
+
+.midbot h4 {
+    margin-left: 14px;
+}
+
 .left-block-content .bot {
-    background: salmon;
+    /* background: salmon; */
     width: 80%;
     height: 30%;
     display: flex;
